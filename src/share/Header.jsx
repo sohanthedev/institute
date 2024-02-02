@@ -22,14 +22,8 @@ const Header = () => {
     return (
         <div className="navbar bg-white dark:bg-black">
   <div className="flex-1">
-    
   </div>
   <div className="flex-none">
-    
-     
-      
-
-
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
@@ -37,7 +31,7 @@ const Header = () => {
         </div>
         
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 bg-white dark:bg-black text-textColor dark:text-darkModeTextColor">
         <li>
           <a className="justify-between">
             Profile
